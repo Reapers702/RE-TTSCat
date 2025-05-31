@@ -104,6 +104,7 @@ namespace Re_TTSCat.Data
             OnInteractShare = "感谢 $USER 分享直播间";
             OnInteractSpecialFollow = "感谢 $USER 的特别关注";
             VoiceReplyRules = new List<VoiceReplyRule>();
+            UserNameAlias = new Dictionary<string, string>();
         }
     }
 }

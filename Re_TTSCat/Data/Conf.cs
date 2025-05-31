@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Re_TTSCat.Data
 {
@@ -334,5 +335,9 @@ namespace Re_TTSCat.Data
         /// 语音答复规则列表
         /// </summary>
         public List<VoiceReplyRule> VoiceReplyRules { get; set; }
+        /// <summary>
+        /// 语音输出用户名映射
+        /// </summary>
+        public Dictionary<string, string> UserNameAlias { get; set; }
     }
 }
